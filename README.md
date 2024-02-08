@@ -80,19 +80,33 @@ Verified that packet data has been captured:
 
 ls -l capture.pcap
 
+<h2>Task 4. Filter the captured packet data</h2>
 
+Used the tcpdump command to filter the packet header data from the capture.pcap capture file:
 
+sudo tcpdump -nn -r capture.pcap -v
 
+![10](https://github.com/wilsonmantilla/tcpdump-traffic-analysis/assets/159208489/5d20c6ca-727f-487d-8fc6-82887c4fc175)
 
+This command will run tcpdump with the following options:
 
+- nn: Disable port and protocol name lookup.
+- r: Read capture data from the named file.
+- v: Display detailed packet data.
 
+Used the tcpdump command to filter the extended packet data from the capture.pcap capture file:
 
+sudo tcpdump -nn -r capture.pcap -X
 
+![11](https://github.com/wilsonmantilla/tcpdump-traffic-analysis/assets/159208489/e11700f3-e19e-4642-aaa0-446cf219be36)
 
+- X: Display the hexadecimal and ASCII output format packet data. Security analysts can analyze hexadecimal and ASCII output to detect patterns or anomalies during malware analysis or forensic analysis.
 
+<h2>Conclusion</h2>
 
+I have gained practical experience to enable me to:
 
-
-
-
-
+- Identify network interfaces,
+- Use the tcpdump command to capture network data for inspection,
+- Interpret the information that tcpdump outputs regarding a packet, and
+- Save and load packet data for later analysis.
