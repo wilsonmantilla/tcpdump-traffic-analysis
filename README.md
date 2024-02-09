@@ -1,7 +1,7 @@
-<h1>Network Traffic Analysis in tcpdump</h1>
+<h1>Network traffic analysis in tcpdump</h1>
 
 <h2>Description</h2>
-Capture and analyze live network traffic using tcpdump. Use Linux commands in the Bash shell to complete these steps.
+Capture and analyze live network traffic using tcpdump. Use Linux commands in the Bash shell to complete these steps. This project was part of the Google Cybersecurity Professional Certification.
 <br />
 <br />
 <h2>Task 1. Identify network interfaces</h2>
